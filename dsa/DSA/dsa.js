@@ -15,7 +15,27 @@
 // }
 
 // console.log(nums);
-// console.log(res);  
+// console.log(res); 
+
+
+let nums = [3,2,2,3,]
+let val = 3;
+let res = 0;
+
+for(let i = 0; i<=nums.length; i++){
+    if(nums[i]==val){
+        nums[i]=nums[i+1];
+        res = res + 1;
+    }
+    else{
+        
+    }
+}
+
+console.log(nums);
+console.log(res); 
+
+
 
                     //Q.2
 // const Palindrome = function (num) {
@@ -186,3 +206,72 @@
 // a = [...new  Set(a)]
 // a = a.join('')
 // console.log(a);
+
+
+
+
+// const palindrom =function(num){
+//     const str = ""+ num;
+    // console.log(str)
+
+    // let left =0;
+    // let right =str.length-1;
+    // while(left<right){
+    //     if(str[left]===str[right]){
+    //         left +=1;
+    //         right -=1
+    //     }else{
+    //         return false
+    //     }
+
+    // }
+    // return true;
+
+// console.log(palindrom(1221))
+
+// let mayname="shahabaj";
+// let name="baj";
+
+// const result =mayname.indexOf(name);
+// console.log(result)
+
+// let id = 'Shahabaj'
+
+// let s=id.split("")
+// console.log(s)
+
+
+// let arr=[1,4,5,7,2,3]
+
+// function sortedarr(arr){
+//     let sorted=arr.sort()
+//     return sorted
+// }
+// console.log(sortedarr(arr))
+
+// let num=5; 
+
+// function isPrime(num){
+//     let isPrime=true;
+//     for(let i=2; i<=-1;i++){
+//         if(num%i==o){
+//             isPrime= false
+//         }else{
+//              isPrime
+//         } 
+//     }
+//     return isPrime;
+// }
+// console.log(isPrime(num))
+
+
+
+
+
+
+
+
+
+
+
+
